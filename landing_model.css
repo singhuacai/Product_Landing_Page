@@ -27,11 +27,20 @@ a {
 }
 
 /** global classes styling **/
-
+.space{
+  position: relative;
+  background-color: lightblue;
+  /*position: absolute;*/   /*會與其他的內容重疊*/
+  width: 100%;  
+  top: 50px;
+  right:auto;
+  bottom:0px;
+  left:auto;
+}
 .container {
-  max-width: 1000px;
+  max-width: 30cm;
   width: 100%;
-  margin: 0 auto;
+  margin: 0px auto;
 }
 
 .btn {

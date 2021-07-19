@@ -67,6 +67,7 @@ header {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  align-items: right;
   background-color: #eee;
 }
 
@@ -77,8 +78,10 @@ header {
 }
 
 .logo {
-  width:48vw;
+  width: 35vw;
   height:12vw;
+  margin-top:5px;
+  margin-left:-20px;
 }
 
 @media (max-width: 650px) {
@@ -132,9 +135,9 @@ nav > ul {
   /*flex-direction:row-reverse;*/    /* 導覽列水平(右=>左)陳列item */
   /*flex-direction: column;*/        /* 導覽列鉛直陳列item */
   justify-content: space-around;
-  /*justify-content: space-between;*/  /*item平均分配寬度*/
+  /* justify-content: space-between;  item平均分配寬度 */
+  justify-content:space-between;
 }
-
 @media (max-width: 650px) {
   nav > ul {
     flex-direction: column;

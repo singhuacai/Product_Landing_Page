@@ -2,6 +2,15 @@
 
 @import 'https://fonts.googleapis.com/css?family=Lato:400,700';
 
+h2{
+  font-family:"monospace";  
+  /* font-family:"標楷體";   */
+}
+p{
+  font-family:"monospace";  
+  font-family:"微軟正黑體";  
+}
+
 *{
   margin: 0;
   padding: 0;

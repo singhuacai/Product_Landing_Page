@@ -32,7 +32,10 @@ p{
   padding: 0;
   box-sizing: border-box;
 }
-
+/* #header-img{
+  border-radius:50%;
+} */
+/* 調整logo圓角 */
 body {
   background-color: #eee;
   font-family: 'Lato', sans-serif;
@@ -60,17 +63,21 @@ a {
   width: 100%;  
   top: 50px;
   right:auto;
-  bottom:80px;
+  bottom:0px;
   left:auto;
 }
-.container {
+.container{
   z-index:1;
   max-width: 30cm;
   width: 100%;
   margin: 0px auto;
-
 }
-
+.contact-info{
+  font-size: 18px;
+  margin-left: 30px;
+  margin-top: 10px;
+  /* font-family:"微軟正黑體"; */
+}
 .btn {
   padding: 0 20px;
   height: 40px;
@@ -203,8 +210,22 @@ nav > ul {
 }
 
 #features {
-  margin-top: 30px;
+  position: relative;
+  /* display: flex; */
+  background-color: lightblue;
+  flex-direction: column; 
+  margin:70px auto 20px 155px;
+  align-items: left;
+  justify-content: center;
+  height: 400px;  
 }
+
+#feature > h2 {
+  margin-bottom: 20px;
+  word-wrap: break-word;
+}
+
+
 
 #features .icon {
   display: flex;
@@ -256,6 +277,44 @@ nav > ul {
   width: 100%;
 }
 
+#about{
+  display: flex;
+  background-color: lightblue;
+  flex-direction: column; 
+  margin:30px auto 20px 155px;
+  align-items: left;
+  justify-content: center;
+  height: 100px;  
+}
+
+#about > h2 {
+  margin-bottom: 20px;
+  word-wrap: break-word;
+}
+
+#contact{
+  display: flex;
+  background-color: lightblue;
+  flex-direction: column; 
+  margin:30px auto 20px 155px;
+  align-items: left;
+  justify-content: center;
+  height: 220px;
+}
+
+#contact > h2 {
+  margin-bottom: 20px;
+  word-wrap: break-word;
+}
+.set{
+  color: rgb(75, 74, 72);
+  font-weight: bold;
+  font-size: 18px;
+}
+.indent{
+  text-indent: 10px;
+  margin-top: 20px;
+}
 #pricing {
   margin-top: 60px;
   display: flex;

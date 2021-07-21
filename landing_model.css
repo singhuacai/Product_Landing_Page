@@ -98,6 +98,8 @@ a {
 
 .grid {
   display: flex;
+  /* flex-direction: column; */
+  padding: 10px;
 }
 
 
@@ -159,12 +161,12 @@ nav {
 }
 
 nav > ul {
-  width: 35vw;                 /*導覽列中，item之間的距離*/
+  width: 45vw;                 /*導覽列中，item之間的距離*/
   display:  flex;
   flex-direction: row;             /* 導覽列水平(左=>右)陳列item */
   /*flex-direction:row-reverse;*/    /* 導覽列水平(右=>左)陳列item */
   /*flex-direction: column;*/        /* 導覽列鉛直陳列item */
-  justify-content: space-around;
+  /* justify-content: space-around; */
   /* justify-content: space-between;  item平均分配寬度 */
   justify-content:space-between;
 }
@@ -172,6 +174,10 @@ nav > ul {
   nav > ul {
     flex-direction: column;
   }
+}
+
+.nav-link {
+  text-align: center;
 }
 
 #hero {
@@ -272,12 +278,6 @@ nav > ul {
 }
 
 #works {
-  /* display: flex;
-  background-color: lightblue;
-  flex-direction: column; 
-  margin:30px auto -30px 155px;
-  align-items: left;
-  justify-content: center; */
   display: flex;
   background-color: lightblue;
   flex-direction: column;
@@ -302,6 +302,13 @@ nav > ul {
   width: 85%;
   padding:0px;
 }
+.desc-styles{
+  display: flex;
+  flex-direction: row;
+  /* justify-content: left; */
+  /* height: 450px; */
+  padding:0px;
+}
 .video{
   display: flex;
   /* flex-direction: column; */
@@ -316,6 +323,29 @@ nav > ul {
     padding: 0;
     height: 150px;
   }
+}
+
+@media (max-width: 550px){
+  .desc-styles {
+    text-align: left;
+    padding: 0;
+    height: 450px;
+  }
+}
+
+#styles {
+  display: flex;
+  background-color: lightblue;
+  flex-direction: column;
+  /* margin:30px auto 0px 155px; */
+  /* height: 450px; */
+  padding:0px;
+  align-items: left;
+  justify-content: center;
+}
+
+#styles > h2 > .product{
+  word-wrap: break-word;
 }
 
 #about{
@@ -356,19 +386,19 @@ nav > ul {
   text-indent: 10px;
   margin-top: 20px;
 }
-#pricing {
+/* #pricing {
   margin-top: 60px;
   display: flex;
   flex-direction: row;
   justify-content: center;
-}
+} */
 
 .product {
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
-  width: calc(85% / 3);
+  width: calc(90% / 3);
   margin: 10px;
   border: 1px solid #000;
   border-radius: 3px;
@@ -418,7 +448,7 @@ nav > ul {
 }
 
 @media (max-width: 800px) {
-  #pricing {
+  #styles {
     flex-direction: column;
   }
   .product {

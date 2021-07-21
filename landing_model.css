@@ -368,11 +368,19 @@ nav > ul {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  width: calc(100% / 3);
+  width: calc(85% / 3);
   margin: 10px;
   border: 1px solid #000;
   border-radius: 3px;
 }
+.Zoom{
+  border-radius:5px;
+}
+
+.Zoom:hover{
+  transform: scale(1.1);
+}
+/* 滑鼠移到圖片上，圖片會乘以1.1倍 */
 
 .product > .level {
   background-color: #ddd;
@@ -390,7 +398,9 @@ nav > ul {
 .product > ol {
   margin: 15px 0;
 }
-
+.product > img {
+  margin: 25px 10px;
+}
 .product > ol > li {
   padding: 5px 0;
 }

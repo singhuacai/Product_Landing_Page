@@ -64,10 +64,11 @@ a {
   z-index:1;
   /*position: absolute;*/   /*會與其他的內容重疊*/
   width: 100%;  
-  top: 50px;
+  padding: 80px;
+  /* top: 50px;
   right:auto;
   bottom:0px;
-  left:auto;
+  left:auto; */
 }
 .container{
   z-index:1;
@@ -78,9 +79,9 @@ a {
 }
 .contact-info{
   font-size: 17px;
-  margin-left: 30px;
-  margin-top: 20px;
-  margin-bottom:30px;
+  margin-left: 40px;
+  margin-top: 10px;
+  margin-bottom:20px;
   font-family:"微軟正黑體";
   /* font-family:"monospace"; */
 }
@@ -98,8 +99,6 @@ a {
 
 .grid {
   display: flex;
-  /* flex-direction: column; */
-  padding: 10px;
 }
 
 
@@ -222,14 +221,15 @@ nav > ul {
 }
 
 #features {
-  position: relative;
+  /* position: relative; */
   display: flex;
   background-color: lightblue;
   flex-direction: column; 
-  margin:80px auto 20px 155px;
   align-items: left;
   justify-content: center;
-  padding: 0px;
+  /* margin:80px auto 20px 125px; */ 
+  padding: 80px;
+  width: 100%;
   height: 420px;  
 }
 
@@ -281,22 +281,15 @@ nav > ul {
   display: flex;
   background-color: lightblue;
   flex-direction: column;
+  align-items:left;
   justify-content: center;
-  margin:30px auto 0px 175px;
   height: 450px;
   /* width: 80vw; */
-  width: 85%;
-  padding: 0px;
+  width: 100%;
+  padding: 80px;
 }
 
-/* #works > iframe {
-  max-width: 560px;
-  width: 100%;
-} */
-
 .desc-work{
-  /* display: flex; */
-  /* flex-direction: column; */
   justify-content: center;
   height: 450px;
   width: 85%;
@@ -305,8 +298,6 @@ nav > ul {
 .desc-styles{
   display: flex;
   flex-direction: row;
-  /* justify-content: left; */
-  /* height: 450px; */
   padding:0px;
 }
 .video{
@@ -337,25 +328,35 @@ nav > ul {
   display: flex;
   background-color: lightblue;
   flex-direction: column;
-  /* margin:30px auto 0px 155px; */
-  /* height: 450px; */
-  padding:0px;
-  align-items: left;
+  align-items: left;  
   justify-content: center;
+  /* margin:30px auto 0px 125px; */
+  height: 450px;
+  /* padding:0px; */  
+  padding: 80px;
+  width: 100%;
 }
 
 #styles > h2 > .product{
   word-wrap: break-word;
 }
-
+.styles-info{
+  margin-left: 40px;
+  margin-top: 10px;
+  margin-bottom:20px;
+  font-family:"微軟正黑體";
+  /* font-family:"monospace"; */
+}
 #about{
   display: flex;
   background-color: lightblue;
   flex-direction: column; 
-  margin:30px auto 20px 155px;
   align-items: left;
   justify-content: center;
-  /* height: 100px;   */
+  /* margin:30px auto 20px 125px; */
+  padding: 80px;
+  width: 100%;
+  height: 100px;
 }
 
 #about > h2 {
@@ -367,10 +368,12 @@ nav > ul {
   display: flex;
   background-color: lightblue;
   flex-direction: column; 
-  margin:30px auto 20px 155px;
   align-items: left;
   justify-content: center;
-  /* height: 220px; */
+  /* margin:30px auto 20px 125px; */
+  padding: 80px;
+  width: 100%;
+  height: 220px;
 }
 
 #contact > h2 {
@@ -383,15 +386,9 @@ nav > ul {
   font-size: 20px;
 }
 .indent{
-  text-indent: 10px;
-  margin-top: 20px;
+  text-indent: 20px;
+  margin-top: 30px;
 }
-/* #pricing {
-  margin-top: 60px;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-} */
 
 .product {
   display: flex;

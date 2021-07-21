@@ -302,9 +302,7 @@ nav > ul {
 }
 .video{
   display: flex;
-  /* flex-direction: column; */
   justify-content: center;
-  /* height: 700px; */
   width: 50%;
   padding: 20px;
 }
@@ -395,7 +393,7 @@ nav > ul {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  width: calc(90% / 3);
+  width: calc(100% / 3);
   margin: 10px;
   border: 1px solid #000;
   border-radius: 3px;
@@ -405,14 +403,14 @@ nav > ul {
 }
 
 .Zoom:hover{
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 /* 滑鼠移到圖片上，圖片會乘以1.1倍 */
 
 .product > .level {
   background-color: #ddd;
   color: black;
-  padding: 15px 0;
+  padding: 15px 2px;
   width: 100%;
   text-transform: uppercase;
   font-weight: 700;
@@ -456,6 +454,14 @@ nav > ul {
   }
 }
 
+.map{
+  border:0;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
 footer {
   margin-top: 30px;
   background-color: #ddd;
@@ -480,7 +486,6 @@ footer > span {
 }
 
 .float-button {
-  background-image: "messenger.png";
   width: 3rem;
   height: 3rem;
   position: fixed;

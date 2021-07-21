@@ -478,3 +478,18 @@ footer > span {
   font-size: 0.9em;
   color: #444;
 }
+
+.float-button {
+  background-image: "messenger.png";
+  width: 3rem;
+  height: 3rem;
+  position: fixed;
+  bottom: 2rem;
+  right: 0.5rem;
+  z-index: 9999
+}
+  
+/* .float-button:hover {
+  transform: scale(1.01);
+  background-color: #444;
+} */

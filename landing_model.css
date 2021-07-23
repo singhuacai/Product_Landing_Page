@@ -21,11 +21,12 @@ header {
 h2{
   /* font-family:"monospace";   */
   /* font-family:"標楷體";   */
-  font-family:"微軟正黑體";
+  font-family:"微軟正黑體";  
+  color:rgb(87, 84, 77);
 }
 p{
   /* font-family:"monospace";   */
-  font-family:"微軟正黑體";  
+  font-family:"微軟正黑體";
 }
 
 *{
@@ -176,7 +177,16 @@ nav > ul {
 }
 
 .nav-link {
+  display: flex;
+  /* align-items: center; */
+  /* justify-content: center; */
   text-align: center;
+}
+
+.nav-link:hover {
+  color:rgb(87, 84, 77);
+  text-decoration:underline;
+  font-weight:bold;
 }
 
 #hero {
@@ -486,6 +496,14 @@ footer > span {
 }
 
 .float-button {
+  width: 3rem;
+  height: 3rem;
+  position: fixed;
+  bottom: 5.4rem;
+  right: 0.5rem;
+  z-index: 9999
+}
+.float-button-top {
   width: 3rem;
   height: 3rem;
   position: fixed;

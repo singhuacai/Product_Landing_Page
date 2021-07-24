@@ -61,7 +61,7 @@ a {
 /** global classes styling **/
 .space{
   position: relative;
-  background-color: lightblue;
+  /* background-color: lightblue; */
   z-index:1;
   /*position: absolute;*/   /*會與其他的內容重疊*/
   width: 100%;  
@@ -233,7 +233,7 @@ nav > ul {
 #features {
   /* position: relative; */
   display: flex;
-  background-color: lightblue;
+  /* background-color: lightblue; */
   flex-direction: column; 
   align-items: left;
   justify-content: center;
@@ -289,7 +289,7 @@ nav > ul {
 
 #works {
   display: flex;
-  background-color: lightblue;
+  /* background-color: lightblue; */
   flex-direction: column;
   align-items:left;
   justify-content: center;
@@ -334,7 +334,7 @@ nav > ul {
 
 #styles {
   display: flex;
-  background-color: lightblue;
+  /* background-color: lightblue; */
   flex-direction: column;
   align-items: left;  
   justify-content: center;
@@ -357,7 +357,7 @@ nav > ul {
 }
 #about{
   display: flex;
-  background-color: lightblue;
+  /* background-color: lightblue; */
   flex-direction: column; 
   align-items: left;
   justify-content: center;
@@ -374,7 +374,7 @@ nav > ul {
 
 #contact{
   display: flex;
-  background-color: lightblue;
+  /* background-color: lightblue; */
   flex-direction: column; 
   align-items: left;
   justify-content: center;
